@@ -19,7 +19,7 @@ namespace Test_Function_App
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            string responseMessage = "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
+            string responseMessage = "(Test Pipeline)This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
 
             return new OkObjectResult(responseMessage);
         }
